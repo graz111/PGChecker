@@ -7,7 +7,7 @@
 > **PGCheker is Beta:** PGChecker is not responding for your accounts on sites
 
 Made by UntitledScripter
-<img width="838" height="720" alt="image" src="https://github.com/user-attachments/assets/c7fb08a9-5a1e-4c1b-b660-2311e15a7d86" />
+<img width="838" height="720" alt="image" src="https://github.com/graz111/PGChecker/blob/main/image.png?raw=true" />
 
 Checker is have 10 modes :
 
