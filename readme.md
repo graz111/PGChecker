@@ -4,7 +4,7 @@
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0)](https://t.me/PGChecker)
 
 > [!NOTE]
-> **PGCheker is Beta:** PGChecker is not responding for your accounts on sites
+> **SeaChecker is Beta:** SeaChecker is not responding for your accounts on sites
 
 Made by UntitledScripter
 <img width="838" height="720" alt="ShowCase" src="https://github.com/graz111/PGChecker/blob/main/image.png?raw=true" />
@@ -18,17 +18,17 @@ Checker is have 10 modes :
 
 "Ecsr.io & Pekora.zip": "Search for two templates at once: ecsr.io and pekora.zip, removing duplicates",
 
-"aureus.wtf": "In aureus.wtf mode, only email:password (clean data) is saved",
+"aureus.wtf": "In aureus.wtf mode, only email:password (clean data) is saved", (gonna be deleted soon)
 
-"zenith.win": "In zenith.win mode, only email:password (clean data) is saved",
+"zenith.win": "In zenith.win mode, only email:password (clean data) is saved", (gonna be deleted soon)
 
-"valex.io": "In valex.io mode, only email:password (clean data) is saved",
+"valex.io": "In valex.io mode, only email:password (clean data) is saved", (gonna be deleted soon)
 
 "getwave.gg": "In getwave.gg mode, only email:password (clean data) is saved",
 
-"sirhurt.net": "In sirhurt.net only saves email:password (clean data)",
+"sirhurt.net": "In sirhurt.net only saves email:password (clean data)", (gonna be deleted soon)
 
-"exoliner.wtf": "In exoliner.wtf mode, only email:password (clean data) is saved",
+"exoliner.wtf": "In exoliner.wtf mode, only email:password (clean data) is saved", (gonna be deleted soon)
 
 "All In": "Search ALL templates (except pekora.zip) with clean email:password data" 
 ]
