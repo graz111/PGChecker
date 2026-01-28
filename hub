@@ -1,0 +1,41 @@
+
+local RedzLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/matheuzxs/RedzlibV5Modify/refs/heads/main/MelhorQueFluent"))()
+
+local Window = RedzLib:MakeWindow({
+  Title = "Skitek Hub",
+  SubTitle = "by graz mraz",
+  SaveFolder = "SkitekConfig.json"
+})
+
+local MainTab = Window:MakeTab({
+  Name = "Select Loader",
+  Icon = "rbxassetid://4483345998"
+})
+
+MainTab:AddSection({
+  Name = "Choose your Skitek Loader version"
+})
+
+
+MainTab:AddButton({
+  Name = "Load Skitek (Rayfield UI)",
+  Callback = function()
+    Window:Destroy()
+
+    print("Loading Rayfield...")
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/sirius-menu/rayfield/main/source.lua"))()
+  end
+})
+
+
+MainTab:AddButton({
+  Name = "Load Skitek (Fluent UI)",
+  Callback = function()
+    Window:Destroy()
+
+    print("Loading Fluent...")
+    loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+  end
+})
+
+RedzLib:SetTheme("Dark")
