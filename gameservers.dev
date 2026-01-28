@@ -1,4 +1,39 @@
-moscow - 45.146.167.178:5555
-germany - localhost:5556
-newyork - localhost:5557
--- gameservers for Koshka strike
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Skitek Loader | Rayfield",
+   LoadingTitle = "Skitek Loading...",
+   ConfigurationSaving = { Enabled = false }
+})
+
+local MainTab = Window:CreateTab("Scripts", 4483362458)
+
+local Scripts = {
+    ["Aimbot"] = "https://raw.githubusercontent.com/YourRepo/aim.lua",
+    ["ESP Master"] = "https://raw.githubusercontent.com/YourRepo/esp.lua",
+    ["Infinite Yield"] = "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source",
+    ["Fly Hack"] = "https://raw.githubusercontent.com/YourRepo/fly.lua"
+}
+
+local List = {}
+for name, _ in pairs(Scripts) do table.insert(List, name) end
+
+local Selected = nil
+
+MainTab:CreateDropdown({
+   Name = "Select Script",
+   Options = List,
+   CurrentOption = "",
+   Callback = function(Option)
+      Selected = Option[1]
+   end,
+})
+
+MainTab:CreateButton({
+   Name = "Execute",
+   Callback = function()
+      if Selected and Scripts[Selected] then
+          loadstring(game:HttpGet(Scripts[Selected]))()
+      end
+   end,
+})
