@@ -18,17 +18,9 @@ Checker is have 10 modes :
 
 "Ecsr.io & Pekora.zip": "Search for two templates at once: ecsr.io and pekora.zip, removing duplicates",
 
-"aureus.wtf": "In aureus.wtf mode, only email:password (clean data) is saved", (gonna be deleted soon)
-
-"zenith.win": "In zenith.win mode, only email:password (clean data) is saved", (gonna be deleted soon)
-
-"valex.io": "In valex.io mode, only email:password (clean data) is saved", (gonna be deleted soon)
-
-"getwave.gg": "In getwave.gg mode, only email:password (clean data) is saved",
-
-"sirhurt.net": "In sirhurt.net only saves email:password (clean data)", (gonna be deleted soon)
-
 "exoliner.wtf": "In exoliner.wtf mode, only email:password (clean data) is saved", (gonna be deleted soon)
 
 "All In": "Search ALL templates (except pekora.zip) with clean email:password data" 
+
+"and etc"
 ]
