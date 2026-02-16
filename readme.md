@@ -1,7 +1,7 @@
 # Hello, this is a checker for TXT files (ULP bases)
 [![License: MIT](https://img.shields.io/badge/License-Python-blue.svg)](./LICENSE.md)
 [![Status](https://img.shields.io/badge/status-beta-yellow)]()
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0)](https://t.me/PGChecker)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0)](https://t.me/SeaChecker)
 
 > [!NOTE]
 > **SeaChecker is Beta:** SeaChecker is not responding for your accounts on sites
