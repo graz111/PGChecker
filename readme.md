@@ -1,26 +1,42 @@
-# Hello, this is a checker for TXT files (ULP bases)
-[![License: MIT](https://img.shields.io/badge/License-Python-blue.svg)](./LICENSE.md)
-[![Status](https://img.shields.io/badge/status-beta-yellow)]()
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0)](https://t.me/SeaChecker)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue)](https://www.python.org/)
+[![Telegram](https://img.shields.io/badge/Telegram-SeaChecker-2CA5E0?logo=telegram&logoColor=white)](https://t.me/seachecker)
+[![GitHub stars](https://img.shields.io/github/stars/graz111/PGChecker?style=social)](https://github.com/graz111/PGChecker)
 
-> [!NOTE]
-> **SeaChecker is Beta:** SeaChecker is not responding for your accounts on sites
+> **Important:** This tool does not take responsibility for any accounts or data extracted and used from sites. Use at your own risk.
 
-Made by UntitledScripter
-<img width="838" height="720" alt="ShowCase" src="https://github.com/graz111/PGChecker/blob/main/image1.png?raw=true" />
+Made by **UntitledScripter** · Full Recode 2026
 
-Checker is have 10 modes :
+<p align="center">
+  <img src="https://github.com/graz111/PGChecker/blob/main/image1.png?raw=true" alt="PGChecker v2.0 interface" width="838" />
+  <br><em>PGChecker v2.0 interface</em>
+</p>
 
-[
-"pekora.zip": "In pekora.zip mode, full lines with file information are saved",
+## Features
 
-"ecsr.io": "In ecsr.io mode, full lines with file information are saved",
+- 8 powerful search modes (full lines or clean `email:pass`)
+- Extremely fast processing of large TXT files
+- Duplicate removal in combined modes
+- RU / ENG interface
+- "Only login:pass" filter option
+- Auto-save or manual save results
 
-"Ecsr.io & Pekora.zip": "Search for two templates at once: ecsr.io and pekora.zip, removing duplicates",
+### Search Modes
 
-"exoliner.wtf": "In exoliner.wtf mode, only email:password (clean data) is saved", (gonna be deleted soon)
+| Mode                         | What it saves                              | Description |
+|------------------------------|--------------------------------------------|-------------|
+| pekora.zip / auth / accountlogin | Full lines with file info                 | Classic pekora format |
+| ecsr.io / auth / login       | Full lines with file info                 | Ecsr format |
+| Ecsr.io & Pekora.zip         | Full lines, deduplicated                  | Both templates at once |
+| kornet.lat                   | Data matching kornet.lat pattern          | Kornet logs |
+| pwndab.xyz                   | Data matching pwndab.xyz pattern          | Pwndab format |
+| bbblox.fit                   | Data matching bbblox / bbb fit            | Blox variations |
+| All In                       | Clean `email:pass` only                   | All templates (except pekora) |
+| Custom                       | Based on your custom regex                | Fully customizable |
 
-"All In": "Search ALL templates (except pekora.zip) with clean email:password data" 
+## Quick Start
 
-"and etc" 
-]
+Run the script:
+
+```bash
+python PGChecker.py or just run PGChecker.exe
